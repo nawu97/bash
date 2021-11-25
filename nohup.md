@@ -29,3 +29,16 @@ nohup python multi-Hesienberg.py >temp.log 2>&1 &
 
 常用：
 ps -def|grep " command"查看输出
+
+<img width="657" alt="微信截图_20211125174826" src="https://user-images.githubusercontent.com/76439954/143418567-f6d07a30-a670-4fee-b7b6-40904afb2707.png">
+
+
+
+
+UID     //用户ID、但输出的是用户名
+PID     //进程的ID
+PPID    //父进程ID
+C       //进程占用CPU的百分比
+STIME   //进程启动到现在的时间
+TTY     //该进程在那个终端上运行，若与终端无关，则显示? 若为pts/0等，则表示由网络连接主机进程。
+CMD     //命令的名称和参数
